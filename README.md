@@ -1,4 +1,5 @@
 # HTML & CSS Project
+### Zoom out for a better experience
 
 ## 📌 Overview  
 This website showcases information about the **New York Knicks** and **New York Yankees**.  
@@ -15,6 +16,7 @@ It’s built with **HTML & CSS** and features:
 - Typography styling
 - Contact form
 - Hero banner / sections
+- Location of team stadium
 
 ## 🛠️ Technologies Used
 - **HTML5**

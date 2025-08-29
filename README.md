@@ -22,6 +22,13 @@ It’s built with **HTML & CSS** and features:
 - **HTML5**
 - **CSS3**
 
+## 📸 Screenshots
+![alt text](<screenshots/Screenshot 2025-08-29 at 4.26.15 PM.png>)
+![alt text](<screenshots/Screenshot 2025-08-29 at 4.26.22 PM.png>)
+![alt text](<screenshots/Screenshot 2025-08-29 at 4.26.29 PM.png>)
+
+
+
 ## 📌 Future Improvements
 
 - Add JavaScript interactivity

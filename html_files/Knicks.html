@@ -62,6 +62,53 @@
   .Sociallogo:hover {
     transform: scale(1.1) rotate(5deg); /* fun hover effect */
   }
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knicks Upcoming Games</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0B1E3D; /* Dark Knicks Blue */
+      color: #FFFFFF;
+      margin: 0;
+      padding: 0;
+    }
+    .schedule-container {
+      width: 80%;
+      margin: 40px auto;
+      padding: 20px;
+      background: #12284B; /* Slightly lighter blue */
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+    h2 {
+      text-align: center;
+      color: #F58426; /* Knicks Orange */
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      color: #FFFFFF;
+    }
+    th, td {
+      border: 1px solid #F58426; /* Orange borders */
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #F58426; /* Orange header */
+      color: #0B1E3D; /* Dark Blue text */
+    }
+    tr:nth-child(even) {
+      background-color: #1D3466; /* Alternate row dark blue */
+    }
+    tr:nth-child(odd) {
+      background-color: #12284B; /* Default row */
+    }
 </style>
 
 
@@ -211,6 +258,41 @@
         </div>
       </div>
     </div>
+    <div class="schedule-container">
+      <h2>New York Knicks Upcoming Games</h2>
+      <table>
+        <tr>
+          <th>Date</th>
+          <th>Opponent</th>
+          <th>Location</th>
+          <th>Time (ET)</th>
+        </tr>
+        <tr>
+          <td>Oct 15, 2025</td>
+          <td>Boston Celtics</td>
+          <td>Madison Square Garden</td>
+          <td>7:30 PM</td>
+        </tr>
+        <tr>
+          <td>Oct 18, 2025</td>
+          <td>Brooklyn Nets</td>
+          <td>Barclays Center</td>
+          <td>7:00 PM</td>
+        </tr>
+        <tr>
+          <td>Oct 22, 2025</td>
+          <td>Miami Heat</td>
+          <td>Madison Square Garden</td>
+          <td>8:00 PM</td>
+        </tr>
+        <tr>
+          <td>Oct 25, 2025</td>
+          <td>Chicago Bulls</td>
+          <td>United Center</td>
+          <td>7:30 PM</td>
+        </tr>
+      </table>
+    </div>
 
     <div class="funThings">
       <div class="Location">
@@ -220,6 +302,7 @@
             src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=40.7505,-73.9934+(Madison%20Square%20Garden)&amp;t=h&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
         </div>
       </div>
+
 
       <div class="socials">
         <h1>Knicks Social Media</h1>

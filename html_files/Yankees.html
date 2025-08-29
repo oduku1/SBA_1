@@ -62,6 +62,39 @@
   .Sociallogo:hover {
     transform: scale(1.1) rotate(5deg); /* fun hover effect */
   }
+  .schedule-container {
+      width: 80%;
+      margin: 40px auto;
+      padding: 20px;
+      background: #13294B; /* Slightly lighter navy */
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+    h2 {
+      text-align: center;
+      color: #C4CED4; /* Yankees Gray */
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      color: #FFFFFF;
+    }
+    th, td {
+      border: 1px solid #C4CED4; /* Gray borders */
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #C4CED4; /* Yankees Gray */
+      color: #0C2340; /* Navy text */
+    }
+    tr:nth-child(even) {
+      background-color: #1C325E; /* Slightly lighter navy */
+    }
+    tr:nth-child(odd) {
+      background-color: #13294B; /* Default navy */
+    }
 </style>
 
 
@@ -300,7 +333,41 @@
 
 
     </div>
-
+    <div class="schedule-container">
+      <h2>New York Yankees Upcoming Games</h2>
+      <table>
+        <tr>
+          <th>Date</th>
+          <th>Opponent</th>
+          <th>Location</th>
+          <th>Time (ET)</th>
+        </tr>
+        <tr>
+          <td>Apr 10, 2025</td>
+          <td>Boston Red Sox</td>
+          <td>Yankee Stadium</td>
+          <td>7:05 PM</td>
+        </tr>
+        <tr>
+          <td>Apr 12, 2025</td>
+          <td>New York Mets</td>
+          <td>Citi Field</td>
+          <td>7:10 PM</td>
+        </tr>
+        <tr>
+          <td>Apr 15, 2025</td>
+          <td>Toronto Blue Jays</td>
+          <td>Yankee Stadium</td>
+          <td>1:05 PM</td>
+        </tr>
+        <tr>
+          <td>Apr 18, 2025</td>
+          <td>Houston Astros</td>
+          <td>Minute Maid Park</td>
+          <td>8:10 PM</td>
+        </tr>
+      </table>
+    </div>
 
     <div class="funThings">
       <div class="Location">

@@ -1,0 +1,159 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#bannerName {
+  color: #F58426;
+}
+
+/* Hero Banner */
+.hero {
+  background: url('./images/knicks-banner.jpg') center/cover no-repeat;
+  height: 100px; /* match Yankees */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #FEFCFB;
+  position: relative;
+}
+/* dark overlay */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 30px; /* match Yankees */
+  margin-bottom: -3px;
+}
+
+/* Buttons */
+.btn {
+  background: #FF671F;
+  color: #fff;
+  padding: 5px 10px; /* match Yankees */
+  font-size: 12px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #d35400;
+}
+
+.btn.secondary {
+  background: #006BB6;
+  font-size: 12px;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 6px;
+}
+.btn.secondary:hover {
+  background-color: #005A99;
+}
+
+/* Team Overview box */
+.teamOverview {
+  width: 800px; /* match Yankees */
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 20px auto;  
+  padding: 10px;
+}
+
+#court {
+  width: 300px; /* match Yankees */
+  border-radius: 10px;
+}
+
+/* Text adjustments */
+.name {
+  margin-bottom: 2px;
+  font-size: 1rem; /* match Yankees */
+}
+.position {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+/* Carousel */
+#Carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 20px; /* match Yankees */
+  padding: 20px;
+  scroll-behavior: smooth;
+  background-color: #0b1a2a;
+  border-radius: 16px; /* match Yankees */
+}
+#Carousel::-webkit-scrollbar { display: none; }
+#Carousel { scrollbar-width: none; }
+
+/* Each card */
+#Carousel .item {
+  flex: 0 0 280px; /* match Yankees */
+  scroll-snap-align: start;
+  background-color: #142840;
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+  margin: 10px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+#Carousel .item:hover {
+  background-color: #1d3a5f;
+  transform: translateY(-5px);
+}
+
+/* Player images */
+#Carousel .item img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+/* Text styling inside cards */
+#Carousel .name {
+  font-size: 1.2rem; /* match Yankees */
+  font-weight: bold;
+  margin: 8px 0 4px;
+}
+#Carousel .position {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #f58426;
+  margin-bottom: 8px;
+}
+#Carousel .description {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #e0e0e0;
+}
+
+/* Roster container */
+.KnicksRoster {
+  width: 90%; /* match Yankees */
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+}

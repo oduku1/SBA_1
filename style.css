@@ -1,0 +1,117 @@
+/* General Page Styles */
+* {
+    text-align: center;
+}
+
+/* Container holding all team cards */
+.container {
+    width: 100%;
+    min-height: auto;          /* remove forced 1000px height */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;                 /* smaller gap */
+    padding: 15px;
+}
+
+/* Each team card */
+#nyKnicks, #nyGiants, #nyYankees {
+    border: solid 1px;
+    min-width: 250px;
+    width: 100%;
+    max-width: 600px;          /* shrink max width */
+    min-height: auto;          /* let content define height */
+    margin: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;      /* breathing space */
+}
+
+/* Card headers */
+#nyKnicks h2, #nyGiants h2, #nyYankees h2 {
+    background-color: #001F54;
+    margin-top: 0;
+    padding: 8px 12px;
+    font-size: 18px;           /* smaller */
+    text-align: left;
+}
+
+/* Card hover effects */
+#nyKnicks:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 1px 10px #F58426;
+}
+
+#nyGiants:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 1px 10px #A71930;
+}
+
+#nyYankees:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 1px 10px #C4CED4;
+}
+
+/* Centering logos and info box */
+.teamContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+/* Logo sizes */
+#nyKnicks .teamContent img,
+#nyGiants .teamContent img {
+    width: 200px;              /* was 400px */
+}
+
+#nyYankees .teamContent img {
+    width: 160px;              /* was 300px */
+}
+
+/* Team Info Box */
+.teamInfo {
+    border: solid 1px white;
+    width: 90%;                /* scale relative to card */
+    max-width: 400px;          /* was 800px */
+    height: auto;              /* remove fixed height */
+    min-height: 150px;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Text sizes */
+h3 {
+    font-size: 20px;           /* was 30px */
+}
+
+button {
+    font-size: 16px;           /* was 30px */
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+/* Button hover colors */
+button:hover {
+    cursor: pointer;
+}
+
+#Kbutton:hover {
+    background-color: #c24a00;
+}
+  
+#Gbutton:hover {
+    background-color: #061335;
+}
+  
+#Ybutton:hover {
+    background-color: #001f4d;
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="knicks.css" />
+  <link rel="stylesheet" href="navbar.css" />
+</head>
+<style>
+  .funThings {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    /* fixed */
+    gap: 20px;
+    /* add some spacing */
+  }
+
+  .Location {
+    border: 1px solid white;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  #Map {
+    margin: auto;
+    width: 400px;
+  }
+
+  .socials {
+    width: 600px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .Sociallogo {
+    width: 250px;
+  }
+</style>
+
+<body>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>New York Knicks</h1>
+      <a href="https://www.nba.com/knicks/schedule" class="btn">View Schedule</a>
+      <a href="https://shop.msg.com/collections/knicks-apparel" class="btn secondary">Shop Gear</a>
+    </div>
+  </section>
+
+  <nav class="navBar">
+    <ul>
+      <li>
+        <a href="Home.html"><img id="nycPic" src="./images/NewYorkLogo.png" alt="NYC Logo" /></a>
+      </li>
+      <li><a id="knicks" href="./Knicks.html">New York Knicks</a></li>
+      <li><a id="yankees" href="./Yankees.html">New York Yankees</a></li>
+      <li><a id="giants" href="./Giants.html">New York Giants</a></li>
+      <li><input type="text" placeholder="Search" /></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="teamOverview">
+      <h1>History</h1>
+      <img id="court" src="./images/knickscourt.jpg" />
+      <p>
+        The New York Knicks, founded in 1946, are one of the NBA’s original
+        teams and play at Madison Square Garden. They won championships in
+        1970 and 1973, highlighted by Willis Reed’s iconic return in the ’70
+        Finals. In the 1990s, led by Patrick Ewing, the Knicks were perennial
+        contenders and reached the Finals in 1994 and 1999. After years of
+        struggles in the 2000s, the team has recently rebuilt around stars
+        like Jalen Brunson and Julius Randle, once again becoming a rising
+        force in the Eastern Conference.
+      </p>
+    </div>
+
+    <div class="KnicksRoster">
+      <h1>Knicks roster</h1>
+      <div id="Carousel">
+
+        <div class="item">
+          <img src="./knicks_Roster/Brunson1.webp" />
+          <h3 class="name">Jalen Brunson</h3>
+          <p class="position">Guard</p>
+          <p class="description">
+            A dynamic point guard for the New York Knicks, known for his elite
+            scoring, leadership, and clutch playmaking.
+          </p>
+        </div>
+        <div class="item">
+          <img src="./knicks_Roster/Anunoby.webp" />
+          <h3 class="name">OG Anunoby</h3>
+          <p class="position">Forward</p>
+          <p class="description">
+            A versatile two-way forward, valued for his defense, strength, and
+            ability to hit timely shots.
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="./knicks_Roster/Clarkson.avif" />
+          <h3 class="name">Jordan Clarkson</h3>
+          <p class="position">Guard</p>
+          <p class="description">
+            A dynamic scoring guard who provides instant offense and veteran
+            experience off the bench.
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="./knicks_Roster/Deuce.webp" />
+          <h3 class="name">Miles "Deuce" McBride</h3>
+          <p class="position">Guard</p>
+          <p class="description">
+            A tough, defensive-minded guard who brings energy, ball pressure,
+            and hustle off the bench.
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="./knicks_Roster/Hart.webp" />
+          <h3 class="name">Josh Hart</h3>
+          <p class="position">Guard/Forward</p>
+          <p class="description">
+            A gritty do-it-all player, known for his rebounding, hustle, and
+            relentless energy on both ends.
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="./knicks_Roster/KAT.webp" />
+          <h3 class="name">Karl-Anthony Towns</h3>
+          <p class="position">Center</p>
+          <p class="description">
+            An elite big man with scoring versatility, three-point shooting,
+            and strong inside presence.
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="./knicks_Roster/Kolek.webp" />
+          <h3 class="name">Tyler Kolek</h3>
+          <p class="position">Guard</p>
+          <p class="description">
+            A crafty playmaking guard who excels at facilitating offense and
+            keeping teammates involved.
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="./knicks_Roster/Mikal.avif" />
+          <h3 class="name">Mikal Bridges</h3>
+          <p class="position">Forward</p>
+          <p class="description">
+            A durable two-way wing, respected for his defense, versatility,
+            and ability to space the floor.
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="./knicks_Roster/Pacome.webp" />
+          <h3 class="name">Pacome Dadiet</h3>
+          <p class="position">Forward</p>
+          <p class="description">
+            A young, athletic forward with size and upside, bringing energy
+            and developing skill to the roster.
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="./knicks_Roster/Robinson.webp" />
+          <h3 class="name">Mitchell Robinson</h3>
+          <p class="position">Center</p>
+          <p class="description">
+            A dominant rim protector and rebounder, known for his
+            shot-blocking and inside finishing.
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="./knicks_Roster/Yabusele.webp" />
+          <h3 class="name">Guerschon Yabusele</h3>
+          <p class="position">Forward</p>
+          <p class="description">
+            A strong forward who adds physicality, toughness, and floor
+            spacing ability to the rotation.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="funThings">
+      <div class="Location">
+        <h1>Location</h1>
+        <div id="Map"><iframe width="100%" height="600" frameborder="0" scrolling="no" margin="0"
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=40.7505,-73.9934+(Madison%20Square%20Garden)&amp;t=h&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+              href="https://www.mapsdirections.info/fr/calculer-la-population-sur-une-carte">Madison Square
+              Garden</a></iframe></div>
+      </div>
+      <div class="socials">
+        <h1>Knicks Social Media</h1>
+        <a class="socialLink" href="https://twitter.com/nyknicks"><img class="Sociallogo" src="./socials/twitter.png"
+            alt="X logo"></a>
+        <a class="socialLink" href="https://www.tiktok.com/@nyknicks"><img class="Sociallogo" src="./socials/tiktok.png"
+            alt="tiktok logo"></a>
+        <a class="socialLink" href="https://www.instagram.com/nyknicks"><img class="Sociallogo"
+            src="./socials/instagram.png" alt="instagram logo"></a>
+        <a class="socialLink" href="https://www.youtube.com/@NYKnicks"><img class="Sociallogo"
+            src="/socials/youtube.png" alt="youtube logo"></a>
+      </div>
+
+
+    </div>
+</body>
+
+</html>

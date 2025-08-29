@@ -1,0 +1,180 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#bannerName {
+    color: #0C2340; /* Yankees Navy */
+}
+
+/* Hero Banner */
+.hero {
+    background: url('./images/yankees-banner.jpg') center/cover no-repeat;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF; /* White for text */
+    position: relative;
+}
+/* add dark background for hero banner*/
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+/* Keep text above overlay */
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size:30px;
+    margin-bottom: -3px;
+}
+
+/* Primary Button - Yankees Navy */
+.btn {
+    background: #0C2340; /* Navy */
+    color: #FFFFFF; /* White */
+    padding: 5px 10px;
+    font-size: 12px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #1C305C; /* Slightly lighter navy */
+}
+
+/* Secondary Button - Yankees Gray */
+.btn.secondary {
+    background: #C4CED4; /* Gray */
+    color: #0C2340; /* Navy text */
+    padding: 5px 10px;
+    font-size: 12px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+.btn.secondary:hover {
+    background-color: #A7B2B8; /* Darker Gray */
+}
+
+
+
+#court{
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+
+.name{
+    margin-bottom: 2px;
+}
+
+.position{
+    font-style: italic;
+}
+
+.teamOverview {
+    width: 800px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+
+
+    margin: 20px auto;  
+}
+
+
+#Carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+
+    gap: 20px;
+    padding: 20px;
+    scroll-behavior: smooth;
+    background-color: #0b1a2a; /* dark navy background */
+    border-radius: 16px;
+  }
+  
+  /* Hide scrollbar for a cleaner look */
+  #Carousel::-webkit-scrollbar {
+    display: none;
+  }
+  #Carousel {
+    -ms-overflow-style: none;  /* IE/Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+  
+  /* Each card */
+  #Carousel .item {
+    flex: 0 0 280px; /* fixed width */
+    scroll-snap-align: start;
+    background-color: #142840; /* slightly lighter navy */
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+    margin: 10px;
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  
+  #Carousel .item:hover {
+    background-color: #1d3a5f;
+    transform: translateY(-5px);
+  }
+  
+  /* Player images */
+  #Carousel .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 12px;
+  }
+  
+  /* Text styling */
+  #Carousel .name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 8px 0 4px;
+  }
+  
+  #Carousel .position {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #e0e0e0; /* Knicks orange accent */
+    margin-bottom: 8px;
+  }
+  
+  #Carousel .description {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: #C4CED4;
+  }
+  
+
+  .YankeesRoster{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+

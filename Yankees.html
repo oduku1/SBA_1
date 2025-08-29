@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yankees</title>
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="yankees.css">
+
+</head>
+<style>
+  .funThings {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    /* fixed */
+    gap: 20px;
+    /* add some spacing */
+  }
+
+  .Location {
+    border: 1px solid white;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  #Map {
+    margin: auto;
+    width: 400px;
+  }
+
+  .socials {
+    width: 600px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .Sociallogo {
+    width: 250px;
+  }
+</style>
+
+<body>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>New York Yankees</h1>
+      <a href="https://www.mlb.com/yankees/schedule/2025-08/list" class="btn">View Schedule</a>
+      <a href="https://www.mlbshop.com/new-york-yankees/t-14881032+z-9318197-555862172" class="btn secondary">Shop
+        Gear</a>
+    </div>
+  </section>
+  <nav class="navBar">
+    <ul>
+      <li><a href="Home.html"><img id="nycPic" src="./images/NewYorkLogo.png" alt="NYC Logo"></a></li>
+      <li><a id="knicks" href="./Knicks.html">New York Knicks</a></li>
+      <li><a id="yankees" href="./Yankees.html">New York Yankees</a></li>
+      <li><a id="giants" href="./Giants.html">New York Giants</a></li>
+      <li><input type="text" placeholder="Search"></li>
+    </ul>
+  </nav>
+
+
+  <div class="container">
+    <div class="teamOverview">
+      <h1>History</h1>
+      <img id="court" src="./images/yankeestadium.jpg" />
+      <p>
+        The New York Yankees, founded in 1903, are the most successful franchise in Major League Baseball, playing at
+        Yankee Stadium in the Bronx. Nicknamed the “Bronx Bombers,” they have won a record 27 World Series
+        championships, led by legends like Babe Ruth, Lou Gehrig, Joe DiMaggio, and Derek Jeter. The Yankees’ dominance
+        through multiple eras, from the Ruth–Gehrig dynasty to the Core Four of the late 1990s, has made them a global
+        sports icon. Today, behind stars like Aaron Judge and Gerrit Cole, the Yankees remain perennial contenders and a
+        symbol of baseball excellence.
+      </p>
+    </div>
+
+
+
+    <div class="YankeesRoster">
+      <h1>Yankees Roster</h1>
+      <div id="Carousel">
+        <div class="item">
+          <img src="./Yankees_Roster/Bednar.png" />
+          <h3 class="name">David Bednar</h3>
+          <p class="position">Pitcher</p>
+          <p class="description">A reliable arm bringing consistency and control to the mound.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Bellinger.png" />
+          <h3 class="name">Cody Bellinger</h3>
+          <p class="position">Outfielder</p>
+          <p class="description">An explosive hitter and versatile defender, known for power and athleticism.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/BlackBurn.png" />
+          <h3 class="name">Paul Blackburn</h3>
+          <p class="position">Pitcher</p>
+          <p class="description">A steady starter who commands the strike zone effectively.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Caballero.png" />
+          <h3 class="name">José Caballero</h3>
+          <p class="position">Infielder</p>
+          <p class="description">A speedy infielder with sharp defensive instincts and energy.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/chisholm jr.png" />
+          <h3 class="name">Jazz Chisholm Jr.</h3>
+          <p class="position">Infielder</p>
+          <p class="description">A flashy playmaker with elite athleticism and energy on the field.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Dominguez.png" />
+          <h3 class="name">Jasson Domínguez</h3>
+          <p class="position">Outfielder</p>
+          <p class="description">A highly-touted prospect, known for power, speed, and five-tool talent.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Doval.png" />
+          <h3 class="name">Camilo Doval</h3>
+          <p class="position">Pitcher</p>
+          <p class="description">A dominant closer with a blazing fastball and late-game poise.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Fried.png" />
+          <h3 class="name">Max Fried</h3>
+          <p class="position">Pitcher</p>
+          <p class="description">An ace-level starter with excellent command and a sharp curveball.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Gil.png" />
+          <h3 class="name">Luis Gil</h3>
+          <p class="position">Pitcher</p>
+          <p class="description">A young flamethrower bringing excitement and strikeouts to the rotation.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/GoldSchmidt.png" />
+          <h3 class="name">Paul Goldschmidt</h3>
+          <p class="position">First Base</p>
+          <p class="description">A veteran leader with consistent power, defense, and professionalism.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Grisham.png" />
+          <h3 class="name">Trent Grisham</h3>
+          <p class="position">Outfielder</p>
+          <p class="description">A strong defender in the outfield with steady offensive tools.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Hill.png" />
+          <h3 class="name">Rich Hill</h3>
+          <p class="position">Pitcher</p>
+          <p class="description">A crafty veteran pitcher who thrives on experience and finesse.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Judge.png" />
+          <h3 class="name">Aaron Judge</h3>
+          <p class="position">Outfielder</p>
+          <p class="description">The face of the Yankees, combining elite power with Gold Glove defense.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Leiter.png" />
+          <h3 class="name">Jack Leiter</h3>
+          <p class="position">Pitcher</p>
+          <p class="description">A rising young pitcher with strong mechanics and strikeout ability.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Mcmahon.png" />
+          <h3 class="name">Ryan McMahon</h3>
+          <p class="position">Infielder</p>
+          <p class="description">A versatile infielder with power and solid defensive play.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Rice.png" />
+          <h3 class="name">Ben Rice</h3>
+          <p class="position">Catcher</p>
+          <p class="description">A developing catcher with a balanced bat and solid defensive potential.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Rodón.png" />
+          <h3 class="name">Carlos Rodón</h3>
+          <p class="position">Pitcher</p>
+          <p class="description">A powerful left-hander with strikeout stuff and frontline potential.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Rosario.png" />
+          <h3 class="name">Amed Rosario</h3>
+          <p class="position">Infielder</p>
+          <p class="description">A speedy, contact-driven infielder with versatility in the field.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Schlittler.png" />
+          <h3 class="name">Matt Schlittler</h3>
+          <p class="position">Pitcher</p>
+          <p class="description">A developing arm with potential to strengthen the staff.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Stanton.png" />
+          <h3 class="name">Giancarlo Stanton</h3>
+          <p class="position">Outfielder / DH</p>
+          <p class="description">A towering slugger with elite raw power and postseason experience.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Volpe.png" />
+          <h3 class="name">Anthony Volpe</h3>
+          <p class="position">Shortstop</p>
+          <p class="description">A young cornerstone with speed, defense, and emerging offensive skills.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Warren.png" />
+          <h3 class="name">Adam Warren</h3>
+          <p class="position">Pitcher</p>
+          <p class="description">A dependable pitcher with versatility out of the bullpen or rotation.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Weaver.png" />
+          <h3 class="name">Luke Weaver</h3>
+          <p class="position">Pitcher</p>
+          <p class="description">A veteran arm who provides depth and experience on the mound.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Wells.png" />
+          <h3 class="name">Austin Wells</h3>
+          <p class="position">Catcher</p>
+          <p class="description">A young catcher with offensive upside and improving defense.</p>
+        </div>
+
+        <div class="item">
+          <img src="./Yankees_Roster/Williams.png" />
+          <h3 class="name">Allen Williams</h3>
+          <p class="position">Pitcher</p>
+          <p class="description">An emerging talent looking to make his mark with the Yankees.</p>
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <div class="funThings">
+      <div class="Location">
+        <h1>Location</h1>
+        <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=40.8296,%20-73.9262+(Yankee%20Stadium)&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.mapsdirections.info/fr/calculer-la-population-sur-une-carte">Yankee Stadium</a></iframe></div>      </div>
+      
+        <div class="socials">
+          <h1>Yankees Social Media</h1>
+          <a class="socialLink" href="https://twitter.com/Yankees"><img class="Sociallogo" src="./socials/twitter.png"
+              alt="X logo"></a>
+          <a class="socialLink" href="https://www.tiktok.com/@yankees"><img class="Sociallogo" src="./socials/tiktok.png"
+              alt="tiktok logo"></a>
+          <a class="socialLink" href="https://www.instagram.com/yankees"><img class="Sociallogo"
+              src="./socials/instagram.png" alt="instagram logo"></a>
+          <a class="socialLink" href="https://www.youtube.com/@Yankees"><img class="Sociallogo"
+              src="./socials/youtube.png" alt="youtube logo"></a>
+        </div>
+      
+    </div>
+
+
+</body>
+
+</html>

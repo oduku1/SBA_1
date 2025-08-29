@@ -10,7 +10,7 @@ body {
 
 /* Hero Banner */
 .hero {
-  background: url('./images/knicks-banner.jpg') center/cover no-repeat;
+  background:#050f24;
   height: 100px; /* match Yankees */
   display: flex;
   align-items: center;

@@ -3,7 +3,7 @@
     text-align: center;
 }
 .hero {
-    background: url('./images/yankees-banner.jpg') center/cover no-repeat;
+    background: #050f24;
     height: 100px;
     display: flex;
     align-items: center;

@@ -5,10 +5,9 @@ body{
 }
 
 #bannerName {
-    color: #0C2340; /* Yankees Navy */
+    color: #0C2340; 
 }
 
-/* Hero Banner */
 .hero {
     background: #050f24;
     height: 100px;
@@ -16,10 +15,9 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #FFFFFF; /* White for text */
+    color: #FFFFFF; 
     position: relative;
 }
-/* add dark background for hero banner*/
 .hero::before {
     content: "";
     position: absolute;
@@ -27,7 +25,6 @@ body{
     background: rgba(0,0,0,0.4);
 }
 
-/* Keep text above overlay */
 .hero-content {
     position: relative;
     z-index: 1;
@@ -38,7 +35,6 @@ body{
     margin-bottom: -3px;
 }
 
-/* Primary Button - Yankees Navy */
 .btn {
     background: #0C2340; /* Navy */
     color: #FFFFFF; /* White */
@@ -51,13 +47,12 @@ body{
 }
 
 .btn:hover {
-    background: #1C305C; /* Slightly lighter navy */
+    background: #1C305C; 
 }
 
-/* Secondary Button - Yankees Gray */
 .btn.secondary {
-    background: #C4CED4; /* Gray */
-    color: #0C2340; /* Navy text */
+    background: #C4CED4; 
+    color: #0C2340; 
     padding: 5px 10px;
     font-size: 12px;
     margin: 10px;
@@ -67,7 +62,7 @@ body{
 }
 
 .btn.secondary:hover {
-    background-color: #A7B2B8; /* Darker Gray */
+    background-color: #A7B2B8; 
 }
 
 
@@ -108,24 +103,21 @@ body{
     gap: 20px;
     padding: 20px;
     scroll-behavior: smooth;
-    background-color: #0b1a2a; /* dark navy background */
-    border-radius: 16px;
+    background-color: #0b1a2a; 
   }
   
-  /* Hide scrollbar for a cleaner look */
   #Carousel::-webkit-scrollbar {
     display: none;
   }
   #Carousel {
-    -ms-overflow-style: none;  /* IE/Edge */
-    scrollbar-width: none;     /* Firefox */
+    -ms-overflow-style: none;  
+    scrollbar-width: none;     
   }
   
-  /* Each card */
   #Carousel .item {
-    flex: 0 0 280px; /* fixed width */
+    flex: 0 0 280px; 
     scroll-snap-align: start;
-    background-color: #142840; /* slightly lighter navy */
+    background-color: #142840; 
     color: #ffffff;
     border-radius: 16px;
     padding: 16px;
@@ -140,7 +132,6 @@ body{
     transform: translateY(-5px);
   }
   
-  /* Player images */
   #Carousel .item img {
     width: 100%;
     height: auto;
@@ -148,7 +139,6 @@ body{
     margin-bottom: 12px;
   }
   
-  /* Text styling */
   #Carousel .name {
     font-size: 1.2rem;
     font-weight: bold;
@@ -158,7 +148,7 @@ body{
   #Carousel .position {
     font-size: 0.9rem;
     font-weight: 600;
-    color: #e0e0e0; /* Knicks orange accent */
+    color: #e0e0e0; 
     margin-bottom: 8px;
   }
   

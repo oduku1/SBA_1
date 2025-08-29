@@ -39,5 +39,6 @@ It’s built with **HTML & CSS** and features:
 
 ## 👨‍💻 Author
 
-Omar Dukureh
-GitHub: @oduku1
+- Name: Omar Dukureh
+- GitHub: @oduku1
+- GitHub Account Link: https://github.com/oduku1

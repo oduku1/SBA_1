@@ -1,4 +1,3 @@
-/* General Page Styles */
 * {
     text-align: center;
 }
@@ -9,10 +8,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #FFFFFF; /* White for text */
+    color: #FFFFFF; 
     position: relative;
 }
-/* add dark background for hero banner*/
 .hero::before {
     content: "";
     position: absolute;
@@ -20,7 +18,6 @@
     background: rgba(0,0,0,0.4);
 }
 
-/* Keep text above overlay */
 .hero-content {
     position: relative;
     z-index: 1;
@@ -33,15 +30,14 @@
 
 
   
-/* Container holding all team cards */
 .container {
     width: 100%;
-    min-height: auto;          /* remove forced 1000px height */
+    min-height: auto;          
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
-    gap: 15px;                 /* smaller gap */
+    gap: 15px;                 
     padding: 15px;
 }
 
@@ -50,26 +46,24 @@
     border: solid 1px;
     min-width: 250px;
     width: 100%;
-    max-width: 600px;          /* shrink max width */
-    min-height: auto;          /* let content define height */
+    max-width: 600px;          
+    min-height: auto;         
     margin: 15px;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;      /* breathing space */
+    padding-bottom: 20px;     
 }
 
-/* Card headers */
 #nyKnicks h2, #nyGiants h2, #nyYankees h2 {
     background-color: #001F54;
     margin-top: 0;
     padding: 8px 12px;
-    font-size: 18px;           /* smaller */
+    font-size: 18px;           
     text-align: left;
 }
 
-/* Card hover effects */
 #nyKnicks:hover {
     transform: translateY(-5px);
     box-shadow: 1px 1px 10px #F58426;
@@ -85,7 +79,6 @@
     box-shadow: 1px 1px 10px #C4CED4;
 }
 
-/* Centering logos and info box */
 .teamContent {
     display: flex;
     flex-direction: column;
@@ -95,22 +88,20 @@
     padding: 10px;
 }
 
-/* Logo sizes */
 #nyKnicks .teamContent img,
 #nyGiants .teamContent img {
-    width: 200px;              /* was 400px */
+    width: 200px;             
 }
 
 #nyYankees .teamContent img {
-    width: 160px;              /* was 300px */
+    width: 160px;             
 }
 
-/* Team Info Box */
 .teamInfo {
     border: solid 1px white;
-    width: 90%;                /* scale relative to card */
-    max-width: 400px;          /* was 800px */
-    height: auto;              /* remove fixed height */
+    width: 90%;                
+    max-width: 400px;          
+    height: auto;              
     min-height: 150px;
     margin-top: 15px;
     border-radius: 8px;
@@ -118,18 +109,16 @@
     font-size: 14px;
 }
 
-/* Text sizes */
 h3 {
-    font-size: 20px;           /* was 30px */
+    font-size: 20px;           
 }
 
 button {
-    font-size: 16px;           /* was 30px */
+    font-size: 16px;           
     padding: 6px 12px;
     border-radius: 6px;
 }
 
-/* Button hover colors */
 button:hover {
     cursor: pointer;
 }
